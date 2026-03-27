@@ -6,7 +6,7 @@ def get_connection():
         return mysql.connector.connect(
             host="db.karix.in",
             user="karix_dashboard_11",
-            password="your_password",
+            password="Karix@2026",
             database="karixdummy",
             port=3306
         )
@@ -14,3 +14,5 @@ def get_connection():
         print("ERROR:", e)
         traceback.print_exc()
         raise
+
+    
